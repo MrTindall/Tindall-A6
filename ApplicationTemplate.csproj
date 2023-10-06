@@ -3,14 +3,15 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
+
   <ItemGroup>
-    <EmbeddedResource Include="bin\Debug\net6.0\movies.csv">
+    <EmbeddedResource Include="movies.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="bin\Debug\net6.0\shows.csv">
+    <EmbeddedResource Include="shows.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="bin\Debug\net6.0\videos.csv">
+    <EmbeddedResource Include="videos.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
